@@ -1,0 +1,256 @@
+<!-- 页面布局整体思路
+      为了提高网页制作的效率，布局是通常有以下的整体思路
+      1、必须确定页面的版心（可视区），我们测量可得知。
+      2、分析页面中的行模块，以及每个行摸块中的列模块。其实页面布局第一准则
+      3、一行中的列模块经常浮动布局，先确定每个列的大小，之后确定列的位置，页面布局第二准则
+      4、制作HTML结构。我们还是遵循，先有结构，后有样式的原则。结构永远最重要
+      5、所以，先理清楚布局结构，再写代码尤为重要。
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学成在线页面</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../学成在线案例/image/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="header w">
+        <div class="logo">
+            <img src="image/logo1.png" alt="">
+        </div>
+        <div class="nav">
+            <span> <a href="#">首页</a></span>
+            <span><a href="#">课程</a></span>
+            <span><a href="#">职业规划</a></span>
+        </div>
+        <div class="search">
+            <input type="text" class="check" placeholder="请输入关键字">
+            <button><img src="image/sou.png" alt=""></button>
+        </div>
+        <div class="user">
+            <img src="image/用户登录 (1).png" alt="">登&nbsp;&nbsp;录
+        </div>
+    </div>
+    <!-- 头部结束了 -->
+    <div class="banner">
+        <div class="w1 w">
+            <div class="subnav">
+                <ul>
+                    <li><a href="#">前端开发 <span>&gt;</span> </a></li>
+                    <li><a href="#">后端开发 <span>&gt;</span> </a></li>
+                    <li><a href="#">移动开发 <span>&gt;</span> </a></li>
+                    <li><a href="#">人工智能 <span>&gt;</span> </a></li>
+                    <li><a href="#">商业预测 <span>&gt;</span> </a></li>
+                    <li><a href="#">云计算$大数据 <span>&gt;</span> </a></li>
+                    <li><a href="#">Java架构师 <span>&gt;</span> </a></li>
+                    <li><a href="#">UI设计 <span>&gt;</span> </a></li>
+                    <li><a href="#">产品 <span>&gt;</span> </a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="begin">我的课程表</li>
+                    <li class="midden">继续学习 程序语言设计
+                        <p>正在学习-使用对象</p>
+                    </li>
+                    <li class="midden">继续学习 程序语言设计
+                        <p>正在学习-使用对象</p>
+                    </li>
+                    <li class="midden"> 继续学习 程序语言设计
+                        <p>正在学习-使用对象
+                        </p>
+                    </li>
+                    <li>
+                        <button>全部课程</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 精品推荐模块 -->
+        <div class="goods w">
+            <div class="left">
+                <h3>精品推荐</h3>
+            </div>
+            <div class="toods-item">
+                <ul>
+                    <li><a href="#">JQuery</a></li>
+                    <li><a href="#">Spark</a></li>
+                    <li><a href="#">MySQL</a></li>
+                    <li><a href="#">javaWeb</a></li>
+                    <li><a href="#">MySQL</a></li>
+                    <li><a href="#">Vue</a></li>
+                </ul>
+            </div>
+            <div class="mod">
+                <h4>修改兴趣
+            </div>
+            </h4>
+        </div>
+    </div>
+    <!-- box核心内容 -->
+    <div class="box w ">
+        <div class="box-hd">
+            <span class="left">精品推荐</span>
+            <span class="right">查看全部</span>
+        </div>
+        <div class="box-bd">
+            <ul>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="new"><img src="image/new.png" alt=""></div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="new"><img src="image/news.png" alt=""></div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="new"><img src="image/news.png" alt=""></div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                        <div class="top">
+
+                            <img src="image/PHP.png" alt="">
+                        </div>
+                        <div class="middle">Think PHP 5.0博客系统实战项目演练</div>
+                        <div class="last"><span>高级</span><strong>|</strong>1123人在学习</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="content w">
+            <div class="left">
+                <img src="image/footer.png" alt="">
+                <p>学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。</p>
+                <p>© 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号</p>
+                <input type="button" value="下载APP">
+            </div>
+            <div class="right">
+                <table>
+                    <thead>
+                        <tr class="one">
+                            <td>关于学成网</td>
+                            <td>新手指南</td>
+                            <td>合作伙伴</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>关于</td>
+                            <td>如何注册</td>
+                            <td>合作机构</td>
+                        </tr>
+                        <tr>
+                            <td>管理团队</td>
+                            <td>如何选课</td>
+                            <td>合作导师</td>
+                        </tr>
+                        <tr>
+                            <td>工作机会</td>
+                            <td>如何拿到毕业证</td>
+                        </tr>
+                        <tr>
+                            <td>客户服务</td>
+                            <td>学分是什么</td>
+                        </tr>
+                        <tr>
+                            <td>帮助</td>
+                            <td>考试末通过怎么办</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
